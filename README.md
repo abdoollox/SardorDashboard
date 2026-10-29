@@ -24,7 +24,17 @@ Ma'lumot Milliy statistika qo'mitasining SIAT ochiq ma'lumotlaridan olinadi:
 Server kerak emas: `index.html` faylini brauzerda ochish kifoya.
 Chart.js `vendor/` papkasida saqlangan, shuning uchun internetsiz ham ishlaydi.
 
-GitHub Pages orqali joylash uchun: repozitoriy sozlamalari → **Pages** → branch'ni tanlang, papka sifatida `/ (root)` ni belgilang.
+### GitHub Pages
+
+Manzil: **https://abdoollox.github.io/SardorDashboard/**
+
+Pages'ni bir marta yoqish kerak:
+1. **Settings → Pages** bo'limiga kiring.
+2. **Build and deployment → Source** maydonida **Deploy from a branch** ni tanlang.
+3. Branch sifatida `claude/nice-sagan-6ogjoo`, papka sifatida `/ (root)` ni tanlang va **Save** tugmasini bosing.
+
+Shundan keyin shu branch'ga qilingan har bir push saytni avtomatik yangilaydi (1–2 daqiqa ichida).
+`.nojekyll` fayli GitHub'ga sahifani Jekyll orqali qayta ishlamasdan, fayllarni o'zgarishsiz joylashni bildiradi.
 
 ## Ma'lumotni yangilash
 
